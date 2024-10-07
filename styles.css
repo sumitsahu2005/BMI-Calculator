@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3e2e2;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(3, 2, 2, 0.1);
+}
+
+h1{
+    background-color: rgb(160, 106, 132);
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    color: #f4eeee;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 11px;
+    margin-top: 10px;
+    background-color: #6595c9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0086b3;
+}
+
+#result {
+    background-color:rgb(136, 213, 213);;
+    margin-top: 30px;
+    font-size: 18px;
+    height: 90px;
+    color:rgb(26, 48, 34);
+    font-size: 25px;
+    text-align: center;
+}
+
+#healthStatus {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #302c2c;
+    background: #8cb795;
+    height: 120px;
+    font-size: 20px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    padding: 25px;
+}
+h3{
+    text-align: center;
+    padding: 25px;
+}
